@@ -1,0 +1,14 @@
+package edu.demon.generic9;
+
+import java.util.Collection;
+
+public class GenericExtends {
+
+	public static <T> T copy(Collection<T> dest, Collection<? extends T> src) {
+		
+	}
+	public static void main(String[] args) {
+		
+	}
+
+}

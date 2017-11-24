@@ -1,0 +1,30 @@
+package edu.demon.Object6;
+
+class Person{  
+    public String toString() {  
+        String name = "Person";  
+        return name;  
+    }  
+    public String toString(String str) {  
+        String name = str;  
+        return name;  
+    } 
+}  
+  
+class Man extends Person{  
+    public String toString(){  
+        String name = "Man";  
+        return name;  
+    }  
+}
+public class CompilePolymorphic {
+
+	public static void main(String[] args) {
+		Person p = new Person();         //对象引用本类实例  
+        Man m = new Man();               //编译时多态，执行Person类的toString()  
+        System.out.println(p.toString());  
+        System.out.println(m.toString()); //编译时多态，执行Man类的toString()  
+        System.out.println(m.toString("Who"));
+	}
+
+}

@@ -1,0 +1,23 @@
+package edu.demon.Object6;
+
+
+public class CompilePolymorphic {
+	class Person{  
+	    public String toString() {  
+	        String name = "Person";  
+	        return name;  
+	    }  
+	}  
+	  
+	class Man extends Person{  
+	    public String toString(){  
+	        String name = "Man";  
+	        return name;  
+	    }  
+	}
+	public static void main(String[] args) {
+		
+
+	}
+
+}

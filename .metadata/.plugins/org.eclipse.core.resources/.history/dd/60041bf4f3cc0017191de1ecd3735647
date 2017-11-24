@@ -1,0 +1,38 @@
+package edu.demon.Object6;
+
+import java.util.function.Consumer;
+
+interface Eatable {
+	void taste();
+}
+interface Flyable {
+	void fly(String weather);
+//	为了使用lambda表达式，这个接口必须函数式接口，
+//	即除了从父接口继承过来的抽象方法，只包含一个自己特有的抽象方法
+//	void down(String tsyStr);
+//	这个抽象方法时Object的方法
+	@Override
+	boolean equals(Object obj);
+}
+
+public class LambdaExp {
+	public void eat(Eatable e) {
+		System.out.println(e);
+		e.taste();
+	}
+	public void fly(Flyable f) {
+		System.out.println("I am fly " + f);
+		f.fly("the sky is clear");
+	}
+	public static void main(String[] args) {
+		LambdaExp lambdaExp = new LambdaExp();
+		lambdaExp.eat(()->{
+			System.out.println("The apple is taste good");
+		});
+		lambdaExp.fly((weather)->{
+			System.out.println(weather);
+		});
+		Consumer<LambdaExp> consumer = LambdaExp::new;
+		
+	}
+}

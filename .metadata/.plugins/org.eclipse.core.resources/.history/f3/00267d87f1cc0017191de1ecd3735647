@@ -1,0 +1,16 @@
+package edu.demon.Object6;
+
+interface Eatable {
+	void taste();
+}
+interface Flyable {
+	
+}
+public class LambdaExp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

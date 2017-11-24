@@ -1,0 +1,40 @@
+package edu.demon.MultiThread16;
+
+import java.util.concurrent.CountDownLatch;
+
+public class WaitNotifyDemo implements Runnable{
+	private static int num = 20;
+	private static int count = 0;
+	Object mutex;
+	public static void main(String[] args) {
+		Object obj = new Object();
+		WaitNotifyDemo run1 = new WaitNotifyDemo(obj);
+		WaitNotifyDemo run1 = new WaitNotifyDemo(obj);
+				
+
+	}
+
+	public  WaitNotifyDemo(Object obj) {
+		this.mutex = obj;
+	}
+	@Override
+	public void run() {
+		synchronized (mutex) {
+			while (true) {
+				try {
+					notifyAll();
+					wait();
+					System.out.println("count " + count);
+					count++;
+					if (num < count) {
+						break;
+					}
+				} catch (InterruptedException e) {
+					e.printStackTrace();
+				}
+
+			}
+		}
+	}
+
+}

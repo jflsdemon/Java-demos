@@ -1,0 +1,15 @@
+package edu.demon;
+
+import java.util.Properties;
+import java.util.Scanner;
+import org.apache.kafka.clients.producer.KafkaProducer;
+import org.apache.kafka.clients.producer.Producer;
+import org.apache.kafka.clients.producer.ProducerRecord;
+
+
+
+public class ProducerDemo extends Thread {
+	public static void main(String[] args) {
+		
+	}
+}

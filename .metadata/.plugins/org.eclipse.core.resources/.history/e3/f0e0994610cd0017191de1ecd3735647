@@ -1,0 +1,22 @@
+package edu.demon.generic9;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+import com.sun.xml.internal.bind.v2.schemagen.xmlschema.List;
+
+public class GenericExtends {
+
+	public static <T> T copy(Collection<T> dest, Collection<? extends T> src) {
+		T last = null;
+		for (T ele : src) {
+			last = ele;
+			dest.add(ele);
+		}
+		return last;
+	}
+	public static void main(String[] args) {
+		List<Number> ln = new ArrayList<Number>();
+	}
+
+}

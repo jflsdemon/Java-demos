@@ -1,0 +1,21 @@
+package edu.demon.Object6;
+
+@FunctionalInterface
+interface Converter {
+	Integer convert(String from);
+}
+public class LambdaReference {
+
+	public static void main(String[] args) {
+		Converter converter1 = (from)->
+			Integer.valueOf(from); // 自动return
+		;
+		converter1.convert("22");
+		
+		Converter converter2 = Integer::valueOf;
+		converter2.convert("33");
+		
+
+	}
+
+}

@@ -1,0 +1,33 @@
+package edu.demon;
+
+import java.util.Properties;
+import java.util.Scanner;
+import org.apache.kafka.clients.producer.KafkaProducer;
+import org.apache.kafka.clients.producer.Producer;
+import org.apache.kafka.clients.producer.ProducerRecord;
+
+org.apache.kafka.clients.producer.ProducerRecord;
+
+
+
+
+public class ProducerDemo extends Thread {
+	private final Producer<Integer, String> producer;
+	private final String topic;
+	private final Properties props = new Properties();
+	public ProducerDemo(String topic) {
+		props.put("serializer.class", "kafka.serializer.StringEncoder");
+		props.put("metadata.broker.list", "192.168.100.109:9092");
+		producer = new KafkaProducer<>(props);
+		this.topic = topic;
+	}
+	@Override
+	public void run() {
+		int messageNo = 1;
+		while (true) {
+			String messageStr = new String("Message_" + messageNo);
+			System.out.println("Send: " + messageStr);
+			producer.send(new KeyedMessage(topic, messageStr));
+		}
+	}
+}

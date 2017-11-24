@@ -1,0 +1,6 @@
+package edu.demon;
+
+
+public class ConsumerDemo extends Thread {
+	
+}

@@ -1,0 +1,10 @@
+package edu.demon.Object6;
+
+public class LambdaReference {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

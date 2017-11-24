@@ -1,0 +1,4 @@
+INDEX VERSION 1.3+/Users/juliang/Documents/Eclipse/workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+574131561.index
+2724930090.index
+574131561.index

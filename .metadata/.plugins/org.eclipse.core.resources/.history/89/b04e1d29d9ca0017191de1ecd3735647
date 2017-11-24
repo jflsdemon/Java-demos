@@ -1,0 +1,11 @@
+package edu.demon;
+
+import org.apache.kafka.clients.consumer.KafkaConsumer;
+
+public class ConsumerDemo extends Thread {
+	private final KafkaConsumer<Integer, String> consumer;
+	private final String topic;
+	public ConsumerDemo(String topic) {
+		this.topic = topic;
+	}
+}

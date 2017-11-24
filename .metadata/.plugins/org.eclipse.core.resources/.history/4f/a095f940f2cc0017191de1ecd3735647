@@ -1,0 +1,31 @@
+package edu.demon.Object6;
+
+interface Eatable {
+	void taste();
+}
+interface Flyable {
+	void fly(String weather);
+	void try(String tsyStr);
+}
+
+public class LambdaExp {
+	public void eat(Eatable e) {
+		System.out.println(e);
+		e.taste();
+	}
+	public void fly(Flyable f) {
+		System.out.println("I am fly " + f);
+		f.fly("the sky is clear");
+	}
+	public static void main(String[] args) {
+		LambdaExp lambdaExp = new LambdaExp();
+		lambdaExp.eat(()->{
+			System.out.println("The apple is taste good");
+		});
+		lambdaExp.fly((weather)->{
+			System.out.println(weather);
+		});
+
+	}
+
+}

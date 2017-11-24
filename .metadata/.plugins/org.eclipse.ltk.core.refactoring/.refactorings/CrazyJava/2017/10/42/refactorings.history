@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;edu.demon.MultiThread16.ForkJoinTask.java&apos; to &apos;ForkJoinDemo.java&apos;&#x0A;- Original project: &apos;CrazyJava&apos;&#x0A;- Original element: &apos;edu.demon.MultiThread16.ForkJoinTask.java&apos;&#x0A;- Renamed element: &apos;edu.demon.MultiThread16.ForkJoinDemo.java&apos;" description="Rename compilation unit &apos;ForkJoinTask.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;edu.demon.MultiThread16{ForkJoinTask.java" name="ForkJoinDemo.java" references="false" stamp="1508251563640" version="1.0"/>
+</session>

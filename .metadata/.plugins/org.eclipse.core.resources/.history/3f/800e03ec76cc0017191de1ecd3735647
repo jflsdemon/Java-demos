@@ -1,0 +1,32 @@
+package edu.demon.Object6;
+
+
+
+class Dog
+{
+public:
+     void shout(){ cout << "汪汪！"<<endl; }
+};
+class Cat
+{
+public:
+     void shout(){ cout << "喵喵~"<<endl; }
+};
+class Bird
+{
+public:
+     void shout(){ cout << "叽喳!"<<endl; }
+};
+public class CompilePolymorphic {
+	class Animal
+	{
+	    public void shout() { 
+			System.out.println("发出动物的叫声");
+		}
+	}
+	public static void main(String[] args) {
+		
+
+	}
+
+}

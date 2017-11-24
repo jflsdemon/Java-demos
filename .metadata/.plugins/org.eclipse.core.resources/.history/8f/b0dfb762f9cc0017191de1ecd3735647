@@ -1,0 +1,16 @@
+package edu.demon.Object6;
+
+@FunctionalInterface
+interface Converter {
+	Integer convert(String from);
+}
+public class LambdaReference {
+
+	public static void main(String[] args) {
+		Converter converter1 = (from)->{
+			Integer.valueOf(from);
+		};
+
+	}
+
+}

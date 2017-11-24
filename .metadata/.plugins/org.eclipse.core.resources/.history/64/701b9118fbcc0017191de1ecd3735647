@@ -1,0 +1,43 @@
+package edu.demon.Object6;
+
+@FunctionalInterface
+interface Converter {
+	Integer convert(String from);
+}
+
+@FunctionalInterface
+interface MyTest {
+	String test(String a, int b, int c);
+}
+
+@FunctionalInterface
+interface MyTest1 {
+	String test(String a);
+}
+public class LambdaReference {
+
+	public static void main(String[] args) {
+		// 类名::类方法
+		Converter converter1 = (from)->
+			Integer.valueOf(from); // 自动return
+		System.out.println(converter1.convert("22"));
+		Converter converter2 = Integer::valueOf;
+		System.out.println(converter2.convert("33"));
+		
+		// 特定对象::实例方法
+		Converter converter3 = from->
+		"Hello World".indexOf(from);
+		System.out.println(converter3.convert("or"));
+		Converter converter4 = "Hello World"::indexOf;
+		System.out.println(converter4.convert("Wo"));
+	
+		//类名::实例方法
+		MyTest myTest1 = (a, b, c)->a.substring(b, c);
+		MyTest myTest2 = String::substring;
+		System.out.println(myTest2.test("Ni Hao China!", 2, 3));
+		
+		//类名::new
+		MyTest1 test1 = ()
+	}
+
+}

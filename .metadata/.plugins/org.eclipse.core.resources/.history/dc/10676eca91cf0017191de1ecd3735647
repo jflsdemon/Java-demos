@@ -1,0 +1,19 @@
+package edu.demon.MultiThread16;
+
+public class WaitNotifyDemo implements Runnable{
+	private int num;
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void run() {
+		while (true) {
+			
+		}
+		
+	}
+
+}

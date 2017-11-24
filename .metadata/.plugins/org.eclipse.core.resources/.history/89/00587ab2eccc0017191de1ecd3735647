@@ -1,0 +1,13 @@
+package edu.demon.Object6;
+
+interface BaseClass {
+	void test();
+}
+public class AnonymousInnerClass {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

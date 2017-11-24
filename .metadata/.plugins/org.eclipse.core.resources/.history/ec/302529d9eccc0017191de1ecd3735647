@@ -1,0 +1,21 @@
+package edu.demon.Object6;
+
+interface BaseClass {
+	void test();
+}
+public class AnonymousInnerClass {
+
+	public static void main(String[] args) {
+		int age = 8;
+		BaseClass bc = new BaseClass() {
+			
+			@Override
+			public void test() {
+				System.out.println(age);
+				
+			}
+		};
+		bc.test();
+	}
+
+}
