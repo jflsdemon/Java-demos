@@ -1,3 +1,4 @@
 #Tomcat publish data
-#Sat Oct 28 23:50:00 CST 2017
-org.eclipse.jst.jee.server\:FirstTomcatDemo=/Library/apache-tomcat-9.0.1/wtpwebapps/FirstTomcatDemo
+#Sun Nov 26 21:30:10 CST 2017
+org.eclipse.jst.jee.server\:/binary\:/Users/juliang/.m2/repository/org/springframework/spring-web/4.3.1.RELEASE/spring-web-4.3.1.RELEASE.jar=/Library/apache-tomcat-9.0.1/wtpwebapps/app-maven-spring/WEB-INF/lib/spring-web-4.3.1.RELEASE.jar
+org.eclipse.jst.jee.server\:app-maven-spring=/Library/apache-tomcat-9.0.1/wtpwebapps/app-maven-spring
