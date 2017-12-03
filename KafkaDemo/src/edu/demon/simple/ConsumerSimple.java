@@ -37,7 +37,6 @@ public class ConsumerSimple {
             for (ConsumerRecord<String, String> record : records)
                 //　正常这里应该使用线程池处理，不应该在这里处理
                 System.out.printf("offset = %d, key = %s, value = %s", record.offset(), record.key(), record.value()+"\n");
-
         }
     }
 }

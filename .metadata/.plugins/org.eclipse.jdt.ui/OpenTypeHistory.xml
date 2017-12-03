@@ -2,4 +2,11 @@
 <typeInfoHistroy>
 <typeInfo handle="=FirstTomcatDemo/\/Library\/apache-tomcat-9.0.1\/lib\/servlet-api.jar&lt;javax.servlet.http(HttpServlet.class[HttpServlet" modifiers="1057" timestamp="1506533541000"/>
 <typeInfo handle="=KafkaDemo/\/Library\/Java\/JavaVirtualMachines\/jdk1.8.0_131.jdk\/Contents\/Home\/jre\/lib\/rt.jar&lt;java.lang(Thread.class[Thread" modifiers="33" timestamp="1489567893000"/>
+<typeInfo handle="=app-maven-spring/src\/main\/java&lt;edu.demon.soundsystem{CompactDisc.java[CompactDisc" modifiers="513" timestamp="1512134113000"/>
+<typeInfo handle="=app-maven-spring/\/Users\/juliang\/.m2\/repository\/org\/springframework\/spring-beans\/4.3.1.RELEASE\/spring-beans-4.3.1.RELEASE.jar&lt;org.springframework.beans.factory(BeanNameAware.class[BeanNameAware" modifiers="1537" timestamp="1511696852000"/>
+<typeInfo handle="=app-maven-spring/\/Users\/juliang\/.m2\/repository\/org\/springframework\/spring-beans\/4.3.1.RELEASE\/spring-beans-4.3.1.RELEASE.jar&lt;org.springframework.beans.factory(InitializingBean.class[InitializingBean" modifiers="1537" timestamp="1511696852000"/>
+<typeInfo handle="=app-maven-spring/\/Users\/juliang\/.m2\/repository\/org\/springframework\/spring-beans\/4.3.1.RELEASE\/spring-beans-4.3.1.RELEASE.jar&lt;org.springframework.beans.factory(BeanFactory.class[BeanFactory" modifiers="1537" timestamp="1511696852000"/>
+<typeInfo handle="=app-maven-spring/\/Users\/juliang\/.m2\/repository\/org\/springframework\/spring-beans\/4.3.1.RELEASE\/spring-beans-4.3.1.RELEASE.jar&lt;org.springframework.beans.factory.config(BeanPostProcessor.class[BeanPostProcessor" modifiers="1537" timestamp="1511696852000"/>
+<typeInfo handle="=app-maven-spring/\/Users\/juliang\/.m2\/repository\/org\/springframework\/spring-beans\/4.3.1.RELEASE\/spring-beans-4.3.1.RELEASE.jar&lt;org.springframework.beans.factory.config(InstantiationAwareBeanPostProcessorAdapter.class[InstantiationAwareBeanPostProcessorAdapter" modifiers="1057" timestamp="1511696852000"/>
+<typeInfo handle="=app-maven-spring/\/Users\/juliang\/.m2\/repository\/org\/springframework\/spring-beans\/4.3.1.RELEASE\/spring-beans-4.3.1.RELEASE.jar&lt;org.springframework.beans.factory.config(BeanFactoryPostProcessor.class[BeanFactoryPostProcessor" modifiers="1537" timestamp="1511696852000"/>
 </typeInfoHistroy>
